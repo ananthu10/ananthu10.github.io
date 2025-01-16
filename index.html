@@ -3,59 +3,130 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ananthu MA - Software Engineer</title>
+    <title>Shaheed's Portfolio</title>
     <style>
         body {
             font-family: Arial, sans-serif;
-            margin: 20px;
-            padding: 20px;
-        }
-        h1, h2 {
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
             color: #333;
         }
-        p {
-            line-height: 1.6;
-            color: #666;
+        header {
+            background: #333;
+            color: #fff;
+            padding: 1rem 0;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background: #444;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            padding: 0.5rem 1rem;
+        }
+        nav a:hover {
+            background: #555;
+        }
+        section {
+            padding: 2rem;
+        }
+        .image-section {
+            text-align: center;
+        }
+        .image-section img {
+            max-width: 100%;
+            height: auto;
+        }
+        footer {
+            text-align: center;
+            background: #333;
+            color: #fff;
+            padding: 1rem 0;
+            margin-top: 2rem;
         }
     </style>
 </head>
 <body>
     <header>
-        <h1>Ananthu MA</h1>
-        <h2>Software Engineer</h2>
+        <h1>Shaheed's Portfolio</h1>
+        <p>Showcasing my work, skills, and accomplishments</p>
     </header>
+    
+    <nav>
+        <a href="#profile">Profile</a>
+        <a href="#experience">Experience</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#education">Education</a>
+        <a href="#honors">Honors</a>
+        <a href="#image">Image Display</a>
+    </nav>
 
-    <section>
-        <h2>About Me</h2>
-        <p>
-            Hello! I am Ananthu MA, a passionate software engineer with expertise in Java, Next.js, Python, computer vision, and ETL tools.
-        </p>
+    <section id="profile">
+        <h2>Profile Summary</h2>
+        <p>Passionate Software Engineer with 3 years of experience in developing web applications and backend systems using <strong>Java</strong>, <strong>Spring Boot</strong>, and <strong>React</strong>. Experienced in working collaboratively with different teams and managing multiple projects. Skilled in DevOps practices, including CI/CD pipelines and containerization. Committed to continuous learning and staying updated with emerging trends to deliver impactful results.</p>
     </section>
 
-    <section>
-        <h2>Tech Stack</h2>
-        <p>
-            My technical skills include:
-            <ul>
-                <li>Java</li>
-                <li>Next.js</li>
-                <li>Python</li>
-                <li>Computer Vision</li>
-                <li>ETL Tools</li>
-            </ul>
-        </p>
+    <section id="experience">
+        <h2>Experience</h2>
+        <ul>
+            <li>
+                <strong>Senior Software Engineer</strong> at <em>Ospyn Technologies Pvt. Ltd.</em> (Jan 2022 - Present)
+                <ul>
+                    <li>Developed a data ingestion platform to create a golden record by cleaning, transforming, and merging data from multiple sources.</li>
+                    <li>Worked on ingest pipelines for FTP and database sources, creating Java connectors for NiFi.</li>
+                    <li>Built configurable ETL templates using NiFi/CDAP for data ingestion.</li>
+                    <li>Developed a pipeline creation tool using Apache Camel with DSL configuration.</li>
+                </ul>
+            </li>
+        </ul>
     </section>
 
-    <section>
-        <h2>Portfolio</h2>
-        <p>
-            Check out some of my projects and experiences to get a glimpse of my work.
-            <!-- Add links or descriptions of your projects here -->
-        </p>
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li><strong>Languages:</strong> Java, Python, JavaScript, Node.js, C, C++, HTML, CSS</li>
+            <li><strong>Databases:</strong> SQL (MySQL), MongoDB</li>
+            <li><strong>Frameworks:</strong> Spring, Spring Boot, React, Next.js, Apache Camel</li>
+            <li><strong>Tools:</strong> Kafka, Docker, Kubernetes, Terraform, CDAP, AWS (S3, EKS, Lambda)</li>
+            <li><strong>Testing:</strong> JUnit5, Cypress, Postman</li>
+            <li><strong>Other Skills:</strong> System Design, DevOps, Debugging</li>
+        </ul>
+    </section>
+
+    <section id="projects">
+        <h2>Other Projects</h2>
+        <ul>
+            <li><strong>Automated Facial Recognition System:</strong> Developed a system to identify missing persons or criminals from live CCTV feeds.</li>
+            <li><strong>Transportation Management System:</strong> Built a web-based application using the MEAN stack to manage college transportation details.</li>
+        </ul>
+    </section>
+
+    <section id="education">
+        <h2>Education</h2>
+        <p><strong>B.Tech in Computer Science & Engineering</strong>, APJ Abdul Kalam Technological University, Trivandrum, India (GPA: 7.76/10.0, Jun 2017 - Jun 2021)</p>
+    </section>
+
+    <section id="honors">
+        <h2>Honors and Awards</h2>
+        <ul>
+            <li>Secured Top 15 position at Reboot Kerala Hackathon 2020.</li>
+            <li>Completed Certification Program in Cybersecurity and Forensics.</li>
+        </ul>
+    </section>
+
+    <section id="image" class="image-section">
+        <h2>Image Display</h2>
+        <p>Below is an image loaded from a source:</p>
+        <img src="https://media.licdn.com/dms/image/v2/C4D03AQEtH4tTTPUVQw/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1659363273160?e=1742428800&v=beta&t=EE3LkhegsvcA3-6a5rrhfe5a9GySbmk1DsiWhiNWBCI" alt="Sample Image">
     </section>
 
     <footer>
-        <p>Contact me: your.email@example.com</p>
+        <p>&copy; 2025 Shaheed's Portfolio. All rights reserved.</p>
     </footer>
 </body>
 </html>
